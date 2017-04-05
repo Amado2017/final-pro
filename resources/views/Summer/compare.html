@@ -1,0 +1,225 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<title>Chart</title>
+ 	<meta name="viewport" content="width = device-width initial-scale = 1">
+ 	<link rel="stylesheet" href="css/bootstrap.css"/>
+ </head>
+ <body>
+	 <div class="container-fluid">
+	 	<nav class="navbar navbar-default" style="margin-bottom:0;">
+		 	<div class="navbar-header">
+		 	    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		 	            <span class="sr-only">Toggle navigation</span>
+		 	            <span class="icon-bar"></span>
+		 	            <span class="icon-bar"></span>
+		 	            <span class="icon-bar"></span>
+		 	    </button>
+		 		<a href="#" class="navbar-brand">Assignment 1</a>
+		 	</div>
+
+		 	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		 		<ul class="nav navbar-nav">
+		 			<li >
+			 			<a href="home.blade.php">Home<span class="sr-only">(current)</span></a>
+		 			</li>
+		 			<li class="active"><a href="compare.html">Chart</a></li>
+		 			<li><a href="about.html">About Us</a></li>
+		 			<li><a href="question.html">Participate</a></li>
+		 		</ul>
+		 		<form class="navbar-form navbar-left" role="search">
+	 		        <div class="form-group">
+	 		          <input type="text" class="form-control" placeholder="Search">
+	 		        </div>
+	 		        <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"> Search</button>
+		 		</form>
+		 	</div>
+	 	</nav>
+
+	 	<div class="row main_content" style="margin-top:10px;">
+	 		<div class="col-sm-8 content" >
+	 			<h1>Collage Ranking</h1>
+	 			<table class="table table-hover table-responsive">
+	 				<tr>
+		 				<td><h4>Rank</h4></td>
+	 					<td><h4>Collage Name</h4></td>
+	 					<td><h4>Compare with</h4></td>
+	 					<td><h4>Action</h4></td>
+	 				</tr>
+	 				<tr>
+		 				<td>1</td>
+	 					<td>Addis Ababa University</td>
+	 					<td>
+		 					<select name="selection" class="form-control">
+		 						<option value="null"></option>
+		 						<option value="ASTU">Adama University</option>
+		 						<option value="MIT">Mekele University</option>
+		 					</select>
+	 					</td>
+	 					<td><a href="chart.html"><button class="btn btn-info">Compare</button></a></td>
+	 				</tr>
+	 				<tr>
+		 				<td>2</td>
+	 					<td>Adama University</td>		
+	 					<td>
+		 					<select name="selection" class="form-control">
+		 						<option value="null"></option>
+		 						<option value="ASTU">Adama University</option>
+		 						<option value="MIT">Mekele University</option>
+		 					</select>
+	 					</td>
+	 					<td><button class="btn btn-info">Compare</button></td>
+	 				</tr>
+	 				<tr>
+		 				<td>3</td>
+	 					<td>Mekele University</td>			
+	 					<td>
+		 					<select name="selection" class="form-control">
+		 						<option value="null"></option>
+		 						<option value="ASTU">Adama University</option>
+		 						<option value="MIT">Mekele University</option>
+		 					</select>
+	 					</td>
+	 					<td><button class="btn btn-info">Compare</button></td>
+	 				</tr>
+	 				<tr>
+		 				<td>4</td>
+	 					<td>Bahir-Dar University</td>
+	 					<td>
+		 					<select name="selection" class="form-control">
+		 						<option value="null"></option>
+		 						<option value="ASTU">Adama University</option>
+		 						<option value="MIT">Mekele University</option>
+		 					</select>
+	 					</td>
+	 					<td><button class="btn btn-info">Compare</button></td>
+	 				</tr>
+	 				<tr>
+		 				<td>5</td>
+	 					<td>Haromaya University</td>	
+	 					<td>
+		 					<select name="selection" class="form-control">
+		 						<option value="null"></option>
+		 						<option value="ASTU">Adama University</option>
+		 						<option value="MIT">Mekele University</option>
+		 					</select>
+	 					</td>
+	 					<td><button class="btn btn-info">Compare</button></td>
+	 				</tr>
+	 				<tr>
+		 				<td>6</td>
+	 					<td>Debrebrhan University</td>
+	 					<td>
+		 					<select name="selection" class="form-control">
+		 						<option value="null"></option>
+		 						<option value="ASTU">Adama University</option>
+		 						<option value="MIT">Mekele University</option>
+		 					</select>
+	 					</td>
+	 					<td><button class="btn btn-info">Compare</button></td>
+	 				</tr>
+	 				<tr>
+		 				<td>7</td>
+	 					<td>Hawasa University</td>		
+	 					<td>
+		 					<select name="selection" class="form-control">
+		 						<option value="null"></option>
+		 						<option value="ASTU">Adama University</option>
+		 						<option value="MIT">Mekele University</option>
+		 					</select>
+	 					</td>
+	 					<td><button class="btn btn-info">Compare</button></td>
+	 				</tr>
+	 				<tr>
+		 				<td>8</td>
+	 					<td>Wachamo University</td>			
+	 					<td>
+		 					<select name="selection" class="form-control">
+		 						<option value="null"></option>
+		 						<option value="ASTU">Adama University</option>
+		 						<option value="MIT">Mekele University</option>
+		 					</select>
+	 					</td>
+	 					<td><button class="btn btn-info">Compare</button></td>
+	 				</tr>
+	 				<tr>
+		 				<td>9</td>
+	 					<td>Medewelabu University</td>
+	 					<td>
+		 					<select name="selection" class="form-control">
+		 						<option value="null"></option>
+		 						<option value="ASTU">Adama University</option>
+		 						<option value="MIT">Mekele University</option>
+		 					</select>
+	 					</td>
+	 					<td><button class="btn btn-info">Compare</button></td>
+	 				</tr>
+	 				<tr>
+		 				<td>10</td>
+	 					<td>Giggiga University</td>	
+	 					<td>
+		 					<select name="selection" class="form-control">
+		 						<option value="null"></option>
+		 						<option value="ASTU">Adama University</option>
+		 						<option value="MIT">Mekele University</option>
+		 					</select>
+	 					</td>
+	 					<td><button class="btn btn-info">Compare</button></td>
+	 				</tr>
+	 			</table>
+	 		</div>
+	 	
+		 	<aside class="col-sm-4" >
+ 				<div class="thumbnail">
+ 					<div class="caption">
+	 					<h3>Latest News</h3>
+				 		<div class="news">
+					 		<a href="#" style="text-decoration:none;"><h4 style="color:#31708f;">News 1</h4></a>
+					 		<p>This is news 1 which will be retrived from database</p>
+					 		<a href="#" style="text-decoration:none;"><h4 style="color:#31708f;">News 2</h4></a>
+					 		<p>This is news 2 which will be retrived from database</p>
+				 		</div>
+ 					</div>
+ 				</div>
+		 				 		
+ 				<div class="thumbnail">
+ 					<div class="caption">	
+	 					<h3>Ads</h3>
+				 		<div class="carousel slide" data-ride="carousel" id="carousel-example">
+				 			<div class="carousel-inner" role="listbox">
+				 				<div class="item active">
+				 					<img src="images/1.jpg" alt="slide1" width="100%">
+				 					<div class="carousel-caption">
+				 						<a href="#" class="btn btn-primary">Visit Site</a>
+				 					</div>
+				 				</div>
+
+				 				<div class="item">
+				 					<img src="images/2.jpg" alt="slide1" width="100%">
+				 					<div class="carousel-caption">
+				 						<a href="#" class="btn btn-primary">Shop</a>
+				 					</div>
+				 				</div>
+
+				 				<div class="item">
+				 					<img src="images/3.jpg" alt="slide1" width="100%">
+				 					<div class="carousel-caption">
+				 						<a href="#" class="btn btn-primary">Buy now</a>
+				 					</div>
+				 				</div>
+				 			</div>
+				 		</div>
+ 					</div>
+ 				</div>
+		 				 		
+		 	</aside>
+	 	</div>
+
+	 	<footer class="row navbar-inverse" style="color:white;text-align:center;">
+	 		<div class="col-sm-12">&copy Web-programing I,by Group name</div>
+	 	</footer>
+	 </div>
+	 <script src="js/jquery.js"></script>
+	 <script src="js/bootstrap.js"></script>
+ </body>
+ </html>

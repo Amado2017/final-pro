@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<style>
+	body{
+		margin: 0;
+		padding: 0;
+		background-color: #f1f1f1;
+	}
+    .container{
+    	margin: 0 auto;
+    	width: 320px;
+    	padding: 100px 0 0 0;
+    }
+	    .container img{
+	    	margin: 20px 0 20px 100px;
+	    }
+	    .form{
+	    	background-color: #fff;
+	    	box-shadow: 0 1px 3px rgba(0,0,0,.13);
+	    	padding: 50px;
+	    }
+		    .input{
+		    	margin-bottom: 20px;
+		    }
+		    #remember{
+		    	float: left;
+		    }
+		    #login{
+		    	float: right;
+		    }
+	    #lost{
+	    	clear: both;
+	    	text-decoration: none;  
+	    	margin: 10px 20px;  	
+	    }
+
+	</style>
+</head>
+<body>
+    <div class="container">
+    	
+    	<div class="form">
+    		<span>Username</span><br>
+    		<input type="text" name="username" class="input form-control"><br>
+    		<span>Password</span><br>
+    		<input type="password" name="password" class="input form-control"><br>
+    		<div id="remember" class="checkbox"><label><input type="checkbox" name="remember_me">Remember Me</label></div>
+    		<button type="button" class="btn btn-primary" name="login" id="login">Login</button>
+    	</div>
+    	<a href="#" id="lost">Lost your password?</a>
+    </div>
+
+</body>
+</html>
